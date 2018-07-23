@@ -1,0 +1,379 @@
+
+.container {
+    max-width: 900px;
+}
+
+.container-header {
+	width: 100%;
+	height: 50px;
+	background-color: #337ab7;
+}
+
+.exit-button {
+    top: 0px;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 40px;
+    padding: 0 10px 10px 24px;
+    transition: all cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s;
+}
+
+.exit-button:hover {
+	background-color: #d9534f;
+}
+
+.exit-button:after {
+    content: "\e163";
+    padding: 10px;
+    font-size: 16px;
+    transition: all cubic-bezier(0.22, 0.61, 0.36, 1) 0.5s;
+}
+
+.exit-button:hover:after {
+    padding: 10px 5px 10px 15px;
+}
+
+.back-button {
+	top: 0px;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 40px;
+	padding: 0 10px 10px 50px;
+    transition: all cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s;
+}
+
+.back-button:hover {
+	background-color: #d9534f;
+}
+
+.back-button:before {
+	position: absolute;
+    left: 24px;
+    top: 4px;
+    content: "\e079";
+    font-size: 16px;
+    transition: all cubic-bezier(0.22, 0.61, 0.36, 1) 0.5s;
+}
+
+.back-button:hover:before {
+    left: 14px;
+}
+
+.margin-top-bottom-10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 5px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
+#logo {
+	width: 450px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.pd-button {
+	padding: 10px 20px;
+	font-size: 24px;
+	box-shadow: none;
+	transform: translateZ(0);
+	transition: all cubic-bezier(0.22, 0.61, 0.36, 1) 0.5s;
+}
+
+.pd-button:hover {
+	transform: scale(1.1);
+	box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+} 
+
+.pd-button-flat {
+	font-size: 18px;
+	transition: all cubic-bezier(0.22, 0.61, 0.36, 1) 0.5s;
+}
+
+#tabella_pazienti tbody > tr {
+	transition: background-color cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s;
+}
+
+#tabella_pazienti tbody > tr:hover {
+	background-color: #a7d4fb !important;
+}
+
+.form-group {
+    margin: 30px 0;
+}
+
+.input-group.date {
+	cursor: pointer;
+}
+.input-group.date input {
+	background-color: #FFF;
+}
+
+legend, .radio, .checkbox, .radio + .radio, .checkbox + .checkbox {
+	margin-top: 0;
+    margin-bottom: 0;
+}
+
+.radio label, .checkbox label {
+	padding-left: 0px;
+}
+
+.black
+{
+	background-color: #000;
+}
+
+#desktop {
+	display: block;
+}
+
+#mobile {
+	display: none;
+}
+
+.flex
+{
+    max-width: 100%;
+}
+
+.margin-top-bottom-20
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.margin-top-bottom-70
+{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.margin-top-70
+{
+	margin-top: 70px;
+}
+
+.margin-bottom-70
+{
+	margin-bottom: 70px;
+}
+
+
+#inserisci-pin h3, #tabella_paziente h3, #inserisci-codfisc h3, #form-paziente h3
+{
+	color: #bdbdbd;
+}
+
+.white
+{
+	color: #fff;
+}
+
+.gi-05x{font-size: 0.5em;}
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
+.padding-5{padding: 5px;}
+.padding-10{padding: 10px;}
+
+tbody tr.clickable:hover td {
+ cursor: pointer;
+}
+
+.little-box{
+	background-color: #ccc;
+    width: 50px;
+    height: 5%;
+    margin: 2px;
+}
+
+#settimanale
+{
+	display: block;
+}
+
+#mensile
+{
+	display: none;
+}
+
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.size2em
+{
+  font-size: 2em;
+}
+
+.size1dot5em
+{
+  font-size: 1.5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+
+/*.searchable-container{margin:20px 0 0 0}*/
+.searchable-container label.btn-default.active
+{
+  color: #fff;
+  background-color: #449d44;
+  border-color: #255625;
+}
+.searchable-container label.btn-default
+{
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+}
+
+.searchable-container .bizmoduleselect
+{
+   margin-bottom: 15px;
+}
+.searchable-container .btn-group{ }
+.searchable-container .btn span.glyphicon{
+    display: none;
+}
+
+.searchable-container .btn h5
+{
+  text-align: center;
+  margin-left: 10px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.searchable-container .btn.active span.glyphicon {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+  
+  #desktop {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+  
+  #logo {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  #tabella_paziente h4
+  {
+      font-size: 15px;
+  }
+
+  .searchable-container label.btn-default
+  {
+    height: 40px;
+    width: 40px;  
+  }
+
+  .searchable-container .btn h5
+  {
+    margin-left: 8px;
+    font-size: 15px;
+    line-height: 14px;
+  }
+  .searchable-container .bizcontent
+  {
+    margin-top: -2px;
+    margin-left: 3px;
+  }
+
+  .margin-back-20
+  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
